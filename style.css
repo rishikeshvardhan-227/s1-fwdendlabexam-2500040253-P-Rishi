@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: orange;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #374151;
+    color: white;
+    flex: 1;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+#search {
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+#movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.poster {
+    background-color: #374151;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.card h3 {
+    color: orange;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
